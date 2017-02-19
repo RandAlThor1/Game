@@ -22,6 +22,13 @@ public class Ability {
         this.Acc = Acc;
         this.Desc = Desc;
     }
+
+    public Ability() {
+        this.Type = "Blank";
+        this.Dmg = "0";
+        this.Acc = "0";
+        this.Desc = "0";
+    }
     public String getType(){
         return Type;
     }

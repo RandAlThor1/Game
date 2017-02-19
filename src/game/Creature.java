@@ -13,5 +13,8 @@ public class Creature {
     //a Creature or any living thing
     private AbilityList AList;
     private Stats Stats;
-    
+   public void addAbility(Ability ability){
+
+    } 
 }
+

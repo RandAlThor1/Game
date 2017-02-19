@@ -11,4 +11,8 @@ package game;
  */
 public class AbilityList {
     //Class that contains the abilitys that any one Creature has at any moment.
+    Ability ability1;
+    Ability ability2;
+    Ability ability3;
+    Ability ability4;
 }
