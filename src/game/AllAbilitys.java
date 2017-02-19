@@ -9,6 +9,6 @@ package game;
  *
  * @author Ben Allen
  */
-public class test {
-    
+public class AllAbilitys {
+    //All the abilitys in the game
 }
