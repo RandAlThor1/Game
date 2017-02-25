@@ -15,9 +15,7 @@ public class Stats {
     private int str;
     private int dex;
     private int con;
-    private int spd;
     private int level;
-    private int maxHP; // max HP
     private int CHP; //CURRENT HP
     private String type;
     final private String Tank = "Tank";
@@ -65,7 +63,6 @@ public class Stats {
         }
         
     }
-
     public Stats(String type) {
             if (type.equals(this.Tank)) {
                 this.Int = 5;
@@ -89,8 +86,6 @@ public class Stats {
                 this.con = 10;
             }
     }
-    
-
     public int getSpd() {
         return getLevel() + getCon();
     }

@@ -11,10 +11,35 @@ package game;
  */
 public class Creature {
     //a Creature or any living thing
+    private String name;
     private AbilityList AList;
     private Stats Stats;
-   public void addAbility(Ability ability){
 
+    public Creature() {
+    }
+
+    public Creature(String name) {
+        this.name = name;
+    }
+
+    public Creature(String name, AbilityList AList, Stats Stats) {
+        this.name = name;
+        this.AList = AList;
+        this.Stats = Stats;
+    }
+    
+    
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    
+   public void addAbility(Ability ability){
+       
     } 
 }
 
